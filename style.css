@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.card {
+    width: 384px;
+    height: 630px;
+    background-image: linear-gradient(45deg, #47BFDF, #4A91FF);
+    margin: auto auto;
+    background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%);
+    box-shadow: -5px 10px 40px 3px rgba(19, 35, 78, 0.2);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    margin: 50px 0 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.2514px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    text-shadow: -1.85429px 2.78143px 0.927143px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.content {
+    width: 328px;
+    height: 360px;
+    position: relative;
+    border: 2px solid rgba(250, 255, 255, 0.4);
+    border-radius: 18px;
+
+}
+
+.content::before {
+    position: absolute;
+    content: '';
+    background: rgba(255, 255, 255, 0.3);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    filter: blur(5px);
+    border-radius: 18px;
+
+}
+
+.temperature {
+    font-weight: 400;
+    font-size: 93px;
+    line-height: 117px;
+    text-shadow: -4px 8px 47px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.factor {
+    font-weight: 700;
+    font-size: 22.2514px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-shadow: -1.85429px 2.78143px 0.927143px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 30px 0 50px;
+}
+
+.wind {
+    position: relative;
+    
+}
+
+.wind::before {
+    position: absolute;
+    content: "";
+    background: url('./windy.png') no-repeat 50% 50%;
+    width: 19px;
+    height: 19px;
+    margin-left: -25px;
+
+}
+
+.hum {
+    position: relative;
+    
+}
+
+.hum::before {
+    position: absolute;
+    content: "";
+    background: url('./hum.png') no-repeat 50% 50%;
+    width: 19px;
+    height: 19px;
+    margin-left: -25px;
+
+
+
+}
