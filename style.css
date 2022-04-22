@@ -9,8 +9,8 @@ p {
 }
 
 .card {
-    width: 384px;
-    height: 630px;
+    width: 100vw;
+    height: 100vh;
     background-image: linear-gradient(45deg, #47BFDF, #4A91FF);
     margin: auto auto;
     background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%);
